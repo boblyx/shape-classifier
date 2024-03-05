@@ -15,10 +15,22 @@ It's a very stupid idea to use AI for this, but its in the similar vein of teach
     - Parallelogram
     - Trapezoid
 
-## Tensor
-Nodes: [[0,1], [1,1], [1,0] ...]
-Edges: [[0,1], [1,2] ...]
-Shape: 3
+## Tensor Definition
+
+### Node Positions 
+```python
+[[0,1], [1,1], [1,0] ...]
+```
+
+### Edges
+```python
+[[0,1], [1,2] ...]
+```
+
+### Shape 
+```python
+[3]
+```
 
 ## TODO
 - Shape synthesiser
