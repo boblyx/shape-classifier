@@ -1,3 +1,5 @@
+notebook
+drawsvg
 torch_geometric
 pyg_lib
 torch_scatter
