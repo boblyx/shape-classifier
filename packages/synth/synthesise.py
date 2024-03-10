@@ -42,7 +42,7 @@ def gLine():
     d = deepcopy(BASE)
     d["e"] = [[0,1]]
     d["p"] = [[rNum(), rNum()], [rNum(), rNum()]]
-    d["s"] = [1]
+    d["s"] = [1,0]
     return d
 
 def gTri():
@@ -64,7 +64,7 @@ def gTri():
     d = deepcopy(BASE)
     d["e"] = [[0,1],[1,2],[2,0]]
     d["p"] = [l[0], l[1], p3]
-    d["s"] = [2]
+    d["s"] = [2,0,0]
     return d
 
 def gSquare():
@@ -82,7 +82,7 @@ def gSquare():
     d = deepcopy(BASE)
     d["e"] = [[0,1],[1,2],[2,3],[3,0]] # May jumble up start index,but similar order
     d["p"] = [A, B, C, D]
-    d["s"] = [3]
+    d["s"] = [3,0,0,0]
     return d
 
 if __name__ == "__main__":
